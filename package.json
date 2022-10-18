@@ -1,0 +1,44 @@
+{
+  "name": "mathe-buddy-lang",
+  "displayName": "mathe:buddy lang",
+  "description": "mathe:buddy language support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathebuddy/mathebuddy-vscode-lang-ext.git"
+  },
+  "author": "Andreas Schwenk, TH Köln",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mathebuddy//mathebuddy-vscode-lang-ext/issues"
+  },
+  "homepage": "https://github.com/mathebuddy//mathebuddy-vscode-lang-ext#readme",
+  "contributes": {
+    "languages": [
+      {
+        "id": "mbl",
+        "aliases": [
+          "MatheBuddyLanguage",
+          "mbl"
+        ],
+        "extensions": [
+          ".mbl"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "mbl",
+        "scopeName": "source.mbl",
+        "path": "./syntaxes/mbl.tmLanguage.json"
+      }
+    ]
+  }
+}
