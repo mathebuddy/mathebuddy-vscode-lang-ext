@@ -3,6 +3,9 @@
   "displayName": "mathe:buddy lang",
   "description": "mathe:buddy language support",
   "version": "0.0.1",
+  "publisher": "mathebuddy",
+  "author": "Andreas Schwenk, TH Köln",
+  "license": "GPL-3.0-or-later",
   "engines": {
     "vscode": "^1.72.0"
   },
@@ -13,8 +16,6 @@
     "type": "git",
     "url": "git+https://github.com/mathebuddy/mathebuddy-vscode-lang-ext.git"
   },
-  "author": "Andreas Schwenk, TH Köln",
-  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/mathebuddy//mathebuddy-vscode-lang-ext/issues"
   },
