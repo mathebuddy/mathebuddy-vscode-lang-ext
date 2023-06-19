@@ -1,34 +1,30 @@
-# mathe-buddy-lang README
+# MBL-language-extension README
 
-TODO: THIS REPOSITORY IS WORK-IN-PROGRESS: BE PATIENT...
+This plugin supports the MatheBuddy Language (MBL)
+
+- https://mathebuddy.github.io/mathebuddy/
+- https://mathebuddy.github.io/mathebuddy/doc/mbl.html
 
 ## Features
 
-Language extension for mathe:buddy.
+Syntax highlighting of \*.mbl files.
 
 ## Requirements
 
-No requirement.
+No requirements needed.
 
 ## Extension Settings
 
-Yet no settings.
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-- `myExtension.enable`: Enable/disable this extension.
-- `myExtension.thing`: Set to `blah` to do something.
+There are no settings yet.
 
 ## Known Issues
 
-Yet no known issues.
+There are no known issues yet.
 
 ## Release Notes
 
-### 0.0.1
+Users appreciate release notes as you update your extension.
 
-Initial release.
+### 1.0.0
+
+Initial Release

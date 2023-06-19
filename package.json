@@ -1,35 +1,27 @@
 {
-  "name": "mathe-buddy-lang",
-  "displayName": "mathe:buddy lang",
-  "description": "mathe:buddy language support",
-  "version": "0.0.1",
-  "publisher": "mathebuddy",
-  "author": "Andreas Schwenk, TH Köln",
-  "license": "GPL-3.0-or-later",
+  "name": "mbl-language-extension",
+  "displayName": "mbl-language-extension",
+  "description": "Language Extension for the MatheBuddy Language (MBL)",
+  "version": "1.0.0",
   "engines": {
-    "vscode": "^1.72.0"
+    "vscode": "^1.79.0"
   },
   "categories": [
     "Programming Languages"
   ],
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mathebuddy/mathebuddy-vscode-lang-ext.git"
+    "url": "https://github.com/mathebuddy/mathebuddy-vscode-lang-ext"
   },
-  "bugs": {
-    "url": "https://github.com/mathebuddy//mathebuddy-vscode-lang-ext/issues"
-  },
-  "homepage": "https://github.com/mathebuddy//mathebuddy-vscode-lang-ext#readme",
   "contributes": {
     "languages": [
       {
         "id": "mbl",
         "aliases": [
-          "MatheBuddyLanguage",
+          "mbl",
           "mbl"
         ],
         "extensions": [
-          ".mbl"
+          "mbl"
         ],
         "configuration": "./language-configuration.json"
       }

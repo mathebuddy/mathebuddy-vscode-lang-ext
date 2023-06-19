@@ -1,12 +1,30 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-  "name": "MatheBuddyLanguage",
+  "name": "mbl",
   "patterns": [
     {
       "include": "#keywords"
     },
     {
+      "include": "#params"
+    },
+    {
       "include": "#strings"
+    },
+    {
+      "include": "#equations"
+    },
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#labels"
+    },
+    {
+      "include": "#todo"
+    },
+    {
+      "include": "#specialChar"
     }
   ],
   "repository": {
@@ -14,18 +32,53 @@
       "patterns": [
         {
           "name": "keyword.control.mbl",
-          "match": "\\b(EQUATION|EXERCISE|HIDDEN|SUMMARY|LEARNINGOUTCOMES|DEFINITION|PLOT|TABLE)\\b"
+          "match": "\\b(TEXT|CENTER|EXAMPLE|EQUATION|DEFINITION|CAPTION|EXERCISE|CODE|FIGURE|SCORING|TABLE|END)\\b"
+        }
+      ]
+    },
+
+    "params": {
+      "patterns": [
+        {
+          "name": "keyword.mbl",
+          "begin": "PATH=|WIDTH=|ORDER=|ARRANGE=|ACCEPT_IMMEDIATELY=|LIMIT=|ACCELERATE=|STOP_AFTER_ERRORS=|CHOICES=|SHOW_GAP_LENGTH=|SHOW_REQUIRED_LETTERS_ONLY=|ALIGN=|TIMER=",
+          "end": "\n"
         }
       ]
     },
     "strings": {
       "name": "string.quoted.double.mbl",
       "begin": "\"",
-      "end": "\"",
+      "end": "\""
+    },
+    "equations": {
+      "name": "entity.name.class.mbl",
+      "begin": "\\$",
+      "end": "\\$"
+    },
+    "comments": {
+      "name": "comment.line.percentage.mbl",
+      "begin": "\\%",
+      "end": "\n"
+    },
+    "labels": {
+      "name": "comment.line.percentage.mbl",
+      "begin": "\\@",
+      "end": "\n"
+    },
+    "todo": {
       "patterns": [
         {
-          "name": "constant.character.escape.mbl",
-          "match": "\\\\."
+          "name": "invalid.mbl",
+          "match": "\\b(TODO)\\b"
+        }
+      ]
+    },
+    "specialChar": {
+      "patterns": [
+        {
+          "name": "invalid.mbl",
+          "match": "\\&|\\#"
         }
       ]
     }
