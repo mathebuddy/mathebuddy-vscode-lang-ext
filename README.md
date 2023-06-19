@@ -25,6 +25,10 @@ There are no known issues yet.
 
 Users appreciate release notes as you update your extension.
 
+### 1.0.1
+
+Added Logo
+
 ### 1.0.0
 
 Initial Release

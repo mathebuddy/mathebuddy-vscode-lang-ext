@@ -1,0 +1,2 @@
+Upload in browser:
+https://marketplace.visualstudio.com/manage/publishers/mathebuddy

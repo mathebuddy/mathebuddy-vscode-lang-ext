@@ -2,16 +2,19 @@
   "name": "mbl-language-extension",
   "displayName": "mbl-language-extension",
   "description": "Language Extension for the MatheBuddy Language (MBL)",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "publisher": "mathebuddy",
   "engines": {
-    "vscode": "^1.79.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Programming Languages"
   ],
+  "icon": "img/logo.png",
   "repository": {
     "url": "https://github.com/mathebuddy/mathebuddy-vscode-lang-ext"
   },
+  "pricing": "Free",
   "contributes": {
     "languages": [
       {
