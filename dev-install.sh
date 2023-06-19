@@ -1,3 +1,3 @@
 #!/bin/bash
 npm install -g yo generator-code
-npm install -g vsce
+npm install -g @vscode/vsce

@@ -1,9 +1,9 @@
 # MBL-language-extension README
 
-This plugin supports the MatheBuddy Language (MBL)
+This plugin supports the "Mathe:Buddy Language" (MBL). Visit our website for more information.
 
-- https://mathebuddy.github.io/mathebuddy/
-- https://mathebuddy.github.io/mathebuddy/doc/mbl.html
+- [https://mathebuddy.github.io/mathebuddy/](https://mathebuddy.github.io/mathebuddy/)
+- [https://mathebuddy.github.io/mathebuddy/doc/mbl.html](https://mathebuddy.github.io/mathebuddy/doc/mbl.html)
 
 ## Features
 
