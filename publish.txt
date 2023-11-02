@@ -1,2 +1,5 @@
-Upload in browser:
-https://marketplace.visualstudio.com/manage/publishers/mathebuddy
+1. run ./dev-install.sh
+2. increment attribute "version" in file "package.json"
+3. run ./build.sh
+4. upload file "mbl-language-extension-VERSION.vsix" via browser to:
+    https://marketplace.visualstudio.com/manage/publishers/mathebuddy
