@@ -2,7 +2,7 @@
   "name": "mbl-language-extension",
   "displayName": "mbl-language-extension",
   "description": "Language Extension for the MatheBuddy Language (MBL)",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publisher": "mathebuddy",
   "engines": {
     "vscode": "^1.60.0"

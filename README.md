@@ -25,11 +25,7 @@ There are no known issues yet.
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.3
-
-Extended grammar rules
-
-### 1.0.2
+### 1.0.x
 
 Extended grammar rules
 
