@@ -78,7 +78,7 @@
       "patterns": [
         {
           "name": "invalid.mbl",
-          "match": "\\&|\\#"
+          "match": "\\&|\\#|///"
         }
       ]
     }
